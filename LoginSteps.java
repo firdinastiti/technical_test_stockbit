@@ -36,7 +36,7 @@ public class LoginSteps {
 	public void user_enters_username_and_password() {
 		
 		drive.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("firdinastiti");
-		drive.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("@Dea12345");
+		drive.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("xxxxxx");
 	}
 
 	@And("User click  login button")
